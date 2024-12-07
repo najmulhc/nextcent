@@ -16,4 +16,6 @@ li {
 
 #action { 
     gap: 14px;
+    display: flex;
+    align-items: center;
 }

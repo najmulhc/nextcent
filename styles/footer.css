@@ -22,11 +22,12 @@ footer #footer-logo {
   gap: 10px;
 }
 
-footer #footer-company,
-footer #footer-support {
-  grid-column: span 2;
+footer #footer-company {
+  grid-column: 6 /span 2;
 }
-
+footer #footer-support {
+    grid-column: 8 / span 2;
+}
 footer ul {
   margin-top: 24px;
 }
@@ -40,7 +41,7 @@ footer ul > li > a {
   color: var(--silver);
 }
 footer form {
-  grid-column: 9 / span 3;
+  grid-column: 10 / span 3;
 }
 
 #footer-logo-text {

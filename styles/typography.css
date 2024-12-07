@@ -72,6 +72,10 @@ button {
   font-size: 18px;
   line-height: 24px;
   gap: 8px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 button.icon-button {
@@ -83,6 +87,7 @@ button.disabled,
 button:hover {
   background-color: var(--silver);
   color: var(--primary);
+  fill: var(--primary);
 }
 
 button.disabled:hover {

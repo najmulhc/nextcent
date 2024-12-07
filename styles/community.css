@@ -1,0 +1,23 @@
+.community-card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+}
+
+.community-card {
+  padding: 24px 32px;
+  width: 299px;
+  text-align: center; 
+}
+
+.community-card img {
+  width: 65px;
+  height: 56px;
+}
+
+
+.community-card p { 
+    margin-top: 8px;
+}
