@@ -41,7 +41,8 @@ p {
   color: var(--grey);
 }
 
-p.body-1 {
+p.body-1,
+ul > li > a {
   font-size: 18px;
   line-height: 28px;
 }
@@ -71,10 +72,29 @@ button {
   font-size: 18px;
   line-height: 24px;
   gap: 8px;
-  box-shadow: var(--shadow-16px);
 }
 
 button.icon-button {
   padding: 20px;
   font-size: 24px;
+}
+
+button.disabled,
+button:hover {
+  background-color: var(--silver);
+  color: var(--primary);
+}
+
+button.disabled:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+a:hover {
+  font-weight: 500;
 }
