@@ -1,5 +1,98 @@
-footer { 
-    background-color: var(--secondary);
-    padding-top: 64px;
-    padding-bottom: 64px;
+footer {
+  background-color: var(--secondary);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: grid;
+  color: var(--silver);
+  grid-template-columns: repeat(12, auto);
+  text-align: left;
+}
+
+footer #footer-logo {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  color: var(--silver);
+}
+
+#footer-logo-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+footer #footer-company,
+footer #footer-support {
+  grid-column: span 2;
+}
+
+footer ul {
+  margin-top: 24px;
+}
+
+footer ul > li {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+footer ul > li > a {
+  color: var(--silver);
+}
+footer form {
+  grid-column: 9 / span 3;
+}
+
+#footer-logo-text {
+  margin: 40px 0;
+}
+
+#footer-logo-text p {
+  color: var(--silver);
+}
+
+#footer-social {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+#footer-social a {
+  height: 32px;
+  width: 32px;
+  background-color: #3c464c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#email-label {
+  background-color: #515b60;
+  padding: 9px 12px;
+  fill: white;
+  stroke: white;
+  display: inline-flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-top: 24px;
+  align-items: center;
+  width: 100%;
+}
+
+#email-label input {
+  outline: none;
+  border: none;
+  background-color: none;
+
+}
+
+#email-label input::placeholder , #email-label input{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #515b60;
+  color: white;
 }

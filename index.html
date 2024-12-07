@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <img src="./assets/logo.svg" alt="logo of the site" srcset="">
+      <img src="./assets/logo.svg" alt="logo of the site" srcset="" />
       <nav>
         <ul>
           <li><a href="">Home</a></li>
@@ -19,7 +19,7 @@
         </ul>
       </nav>
       <div id="action">
-     <button class="disabled">Log In</button>
+        <button class="disabled">Log In</button>
         <button>Sign Up</button>
       </div>
     </header>
@@ -58,7 +58,68 @@
       <section id="demo"></section>
     </main>
     <footer>
-      footer
+      <div id="footer-logo">
+        <!-- the image and logo -->
+        <div>
+          <img src="./assets/icons/Icon.svg" alt="" />
+          <img
+            src="./assets/icons/footer-logo.svg"
+            alt="Logo for the footer"
+            srcset=""
+          />
+        </div>
+        <div id="footer-logo-text">
+          <p>Copyright © 2020 Nexcent ltd.</p>
+          <p>All rights reserved</p>
+        </div>
+        <div id="footer-social">
+          <a href="www.instagram.com">
+            <img src="./assets/icons/insta.svg" alt="">
+          </a>
+          <a href="www.dribbble.com">
+            <img src="./assets/icons/dribble.svg" alt="">
+          </a>
+          <a href="www.twitter.com">
+            <img src="./assets/icons/twitter.svg" alt="">
+          </a>
+          <a href="www.youtube.com">
+            <img src="./assets/icons/youtube.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div id="footer-company">
+        <!-- company section -->
+        <h4>Company</h4>
+        <div>
+          <ul>
+            <li><a href="" class="body-3">About Us</a></li>
+            <li><a href="" class="body-3">Blog</a></li>
+            <li><a href="" class="body-3">Contact Us</a></li>
+            <li><a href="" class="body-3">Pricing</a></li>
+            <li><a href="" class="body-3">Testimonial</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="footer-support">
+        <!-- support section -->
+        <h4>Support</h4>
+        <div>
+          <ul>
+            <li><a href="" class="body-3">Help Center</a></li>
+            <li><a href="" class="body-3">Terms of Service</a></li>
+            <li><a href="" class="body-3">Legal</a></li>
+            <li><a href="" class="body-3">Privacy Policy</a></li>
+            <li><a href="" class="body-3">Status</a></li>
+          </ul>
+        </div>
+      </div>
+      <form action="POST">
+        <h4>Stay up to date</h4>
+        <label id="email-label" for="email">
+          <input type="email" name="email" placeholder="Enter email address" id="email">
+          <img src="./assets/icons/mail.svg" alt="">
+        </label>
+      </form>
     </footer>
     <script type="module" src="./scripts/index.js"></script>
   </body>

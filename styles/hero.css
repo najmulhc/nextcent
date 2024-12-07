@@ -1,0 +1,15 @@
+#hero {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero button {
+    margin-top: 32px;
+}
+
+#hero p {
+    margin-top: 16px;
+}

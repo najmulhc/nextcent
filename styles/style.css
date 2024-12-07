@@ -2,6 +2,7 @@
 @import "./variables.css";
 @import "./footer.css";
 @import "./header.css";
+@import "./hero.css";
 
 * {
   margin: 0;
