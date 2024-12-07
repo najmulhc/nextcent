@@ -21,7 +21,7 @@ header {
 }
 
 #our-clients,
-#manage-community {
+#manage-community , #blog {
   text-align: center;
 }
 
@@ -39,4 +39,10 @@ main {
   padding-top: 32px;
   padding-bottom: 32px;
   background-color: var(--silver);
+}
+
+
+#blog p { 
+  width: 628px;
+  margin: 0 auto;
 }

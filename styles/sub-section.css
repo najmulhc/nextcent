@@ -1,5 +1,6 @@
 .sub-section {
   display: flex;
+  text-align: left;
   gap: 64px;
 }
 
@@ -14,5 +15,6 @@
 .sub-section div p { 
     margin-top: 16px;
     margin-bottom: 32px;
+    text-align: left;
 }
  
