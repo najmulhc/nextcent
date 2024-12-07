@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "./variables.css";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-weight: "semibold";
+  font-size: 4rem;
+  line-height: 76/16rem;
+  color: var(--black);
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 36ox;
+  line-height: 44px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+p {
+  font-weight: normal;
+  color: var(--grey);
+}
+
+p.body-1 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+p.body-2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p.body-3 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+p.body-4 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+button {
+    padding: 16px 32px ;
+    border-radius: 4px;
+    color: white;
+    background-color: var(--primary);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 24px;
+    gap: 8px;
+    box-shadow: var(--shadow-16px);
+}
+
+button.icon-button { 
+    padding: 20px;
+    font-size: 24px;
+}

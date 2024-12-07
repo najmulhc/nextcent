@@ -1,0 +1,15 @@
+:root {
+  --primary: #28cb8b;
+  --secondary: #263238;
+  --grey: #717171;
+  --d-grey: #4d4d4d;
+  --t-5: #e8f5e9;
+  --silver: #f5f7fa;
+  --black: #263238;
+
+  /* shadows  */
+  --shadow-2px: 0px 2px 4px 0px rgba(171, 190, 209, 0.6);
+  --shadow-4px: 0px 4px 8px 0px rgba(171, 190, 209, 0.4);
+  --shadow-8px: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  --shadow-16px: 0px 16px 32px 0px rgba(171, 190, 209, 0.3);
+}
