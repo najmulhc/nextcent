@@ -1,0 +1,34 @@
+#customers { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+    background-color: var(--silver);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#customers h4 {
+    color: var(--primary);
+}
+
+.testimonial-writer { 
+    margin-top: 16px;
+}
+
+.testimonial { 
+    margin-bottom: 32px;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    align-items: center;
+}
+
+.logos div { 
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
