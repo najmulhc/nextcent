@@ -1,0 +1,28 @@
+#local-business {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--silver);
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+.numbers {
+    width: 540px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 32px;
+}
+
+.numbers > div { 
+    display: flex;
+    gap: 16px;
+    text-align: left;
+}
+
+.number > div > div > p { 
+    color: var(--grey);
+}

@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 84px;
-  
+  background-color: var(--silver);
 }
 
 header ul { 
